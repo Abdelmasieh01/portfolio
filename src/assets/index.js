@@ -37,6 +37,9 @@ import ecommapi from "./ecommerce.png";
 import twitter from "./twitter.jpg";
 // import nesr from "./nesr.png";
 
+import linkedin from "./linkedin.png";
+import email from "./email.png";
+
 export {
   logo,
   backend,
@@ -73,4 +76,6 @@ export {
   aws,
   avatar,
   live,
+  email,
+  linkedin
 };

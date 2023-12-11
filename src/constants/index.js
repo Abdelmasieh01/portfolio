@@ -29,6 +29,9 @@ import {
   sql,
   avatar,
   khabeer,
+  github,
+  linkedin,
+  email,
 } from "../assets";
 
 export const navLinks = [
@@ -221,7 +224,8 @@ const projects = [
       },
     ],
     image: khabeer,
-    figma_link: "https://github.com/Abdelmasieh01/https://www.figma.com/proto/mvUpttmqNfVMD8cBcmFBjE/Khabeer-Web?page-id=313%3A2786&type=design&node-id=313-2989&viewport=1421%2C3298%2C0.35&t=ZCU6o3BucmdToFEs-1&scaling=contain&starting-point-node-id=313%3A2787&mode=design",
+    figma_link:
+      "https://github.com/Abdelmasieh01/https://www.figma.com/proto/mvUpttmqNfVMD8cBcmFBjE/Khabeer-Web?page-id=313%3A2786&type=design&node-id=313-2989&viewport=1421%2C3298%2C0.35&t=ZCU6o3BucmdToFEs-1&scaling=contain&starting-point-node-id=313%3A2787&mode=design",
   },
   {
     name: "St. Peter Library",
@@ -310,4 +314,22 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const contacts = [
+  {
+    type: "email",
+    icon: email,
+    content: "abdelmasieh84@gmail.com",
+  },
+  {
+    type: "linkedin",
+    icon: linkedin,
+    content: "https://www.linkedin.com/in/abdelmasieh-baselious/",
+  },
+  {
+    type: "github",
+    icon: github,
+    content: "https://github.com/abdelmasieh01",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, contacts };

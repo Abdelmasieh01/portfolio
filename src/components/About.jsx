@@ -2,8 +2,8 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { services } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { services, contacts } from "../constants";
+import { slideIn, fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
@@ -44,31 +44,36 @@ const About = () => {
       </motion.p>
 
       <motion.div variants={textVariant()} className="mt-10">
-        <h2 className={styles.sectionSubText} style={{ color: "#fff" }}>
-          Contact Info
+        <h2
+          className={styles.sectionSubText}
+          style={{ color: "#fff", fontSize: "24px" }}
+        >
+          Contact & Links
         </h2>
-        <ul className="space-y-1 mt-1">
-          <li className="text-[20px]">
-            Email:&nbsp;
-            <a
-              href="mailto: abdelmasieh84@gmail.com"
-              className={"text-secondary text-[20px]"}
-              target="_blank"
+        <div className="flex flex-row mt-4 gap-4">
+          {contacts.map((contact) => (
+            <div
+              key={contact.type}
+              className="flex items-center justify-center rounded-full black-gradient cursor-pointer w-12 h-12"
             >
-              abdelmasieh84@gmail.com
-            </a>
-          </li>
-          <li className="text-[20px]">
-            Phone:&nbsp;
-            <a
-              href="https://wa.me/+201558345185"
-              className={"text-secondary text-[20px]"}
-              target="_blank"
-            >
-              015583451585
-            </a>
-          </li>
-        </ul>
+              <a
+                className="flex items-center justify-center"
+                href={`${
+                  contact.type === "email"
+                    ? "mailto:" + contact.content
+                    : contact.content
+                }`}
+                target="_blank"
+              >
+                <img
+                  src={contact.icon}
+                  alt={contact.type}
+                  className="object-contain h-3/4 w-3/4"
+                />
+              </a>
+            </div>
+          ))}
+        </div>
       </motion.div>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
