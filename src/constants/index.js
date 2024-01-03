@@ -224,8 +224,10 @@ const projects = [
       },
     ],
     image: khabeer,
+    // source_code_link: "https://github.com/Abdelmasieh01/khabeer",
+    live_link: "https://khabeer-omega.vercel.app/",
     figma_link:
-      "https://github.com/Abdelmasieh01/https://www.figma.com/proto/mvUpttmqNfVMD8cBcmFBjE/Khabeer-Web?page-id=313%3A2786&type=design&node-id=313-2989&viewport=1421%2C3298%2C0.35&t=ZCU6o3BucmdToFEs-1&scaling=contain&starting-point-node-id=313%3A2787&mode=design",
+      "https://www.figma.com/proto/mvUpttmqNfVMD8cBcmFBjE/Khabeer-Web?page-id=313%3A2786&type=design&node-id=313-2989&viewport=1421%2C3298%2C0.35&t=ZCU6o3BucmdToFEs-1&scaling=contain&starting-point-node-id=313%3A2787&mode=design",
   },
   {
     name: "St. Peter Library",
@@ -332,4 +334,11 @@ const contacts = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, contacts };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  contacts,
+};
