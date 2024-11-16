@@ -131,7 +131,8 @@ const experiences = [
     points: [
       "Leading a team of 6 developers in Embedded Systems teams and Fullstack.",
       "Doing Marketing Campaigns for our company and Schedule Planning.",
-      "Deploying Fullstack applications.",
+      "Utilized various technologies: Django, React, Next.js, Express.js, Flutter, MongoDB, and SQL.",
+      "Took on DevOps responsibilities ensuring stable and scalable deployment.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
