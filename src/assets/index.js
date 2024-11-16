@@ -35,6 +35,8 @@ import stpeterlib from "./stpeterlibrary.jpg";
 import stpeterapp from "./stpeterapp.jpg";
 import ecommapi from "./ecommerce.png";
 import twitter from "./twitter.jpg";
+import finconsulting from "./finconsulting.png";
+import myfatoorah from "./myfatoorah.png";
 // import nesr from "./nesr.png";
 
 import linkedin from "./linkedin.png";
@@ -63,6 +65,8 @@ export {
   typescript,
   threejs,
   khabeer,
+  finconsulting,
+  myfatoorah,
   // nesr
   stpeterlib,
   stpeterapp,

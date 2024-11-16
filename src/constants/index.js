@@ -32,6 +32,8 @@ import {
   github,
   linkedin,
   email,
+  finconsulting,
+  myfatoorah,
 } from "../assets";
 
 export const navLinks = [
@@ -55,7 +57,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
@@ -122,22 +124,10 @@ const technologies = [
 const experiences = [
   {
     title: "FullStack Engineer",
-    company_name: "Freelance",
-    icon: avatar,
-    iconBg: "#383E56",
-    date: "Sept 2022 - Present",
-    points: [
-      "Developing and maintaining web applications using django, React.js and Flutter.",
-      "Deliverd many working projects with specific client needs and maintained high customer satisfaction.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-    ],
-  },
-  {
-    title: "Co-Founder & FullStack Engineer",
     company_name: "instaTech",
     icon: instaTech,
     iconBg: "#E6DEDD",
-    date: "Aug 2023 - Present",
+    date: "SEP 2022 - Present",
     points: [
       "Leading a team of 6 developers in Embedded Systems teams and Fullstack.",
       "Doing Marketing Campaigns for our company and Schedule Planning.",
@@ -145,32 +135,18 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Backend Developer (Contract Based)",
+    company_name: "SmartServe AI",
+    icon: avatar,
+    iconBg: "#383E56",
+    date: "MAR 2024 - MAY 2024",
+    points: [
+      "Developed API endpoints for AI Real-time Speech-To-Text transcriptions using Websockets.",
+      "Connected the Asterisk server that receives calls to the APIs.",
+      "Deployed, maintained, and enhanced the API.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -201,6 +177,75 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Arabanah Payment Gaetway Integration",
+    description:
+      "The project was based on Saleor using Django and GraphQL. I extended the project to integrate MyFatoorah payment gateway. Then, I enabled Webhooks to track and change payment status.",
+    tags: [
+      {
+        name: "django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "saleor",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "webhooks",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "payment",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "myFatoorah",
+        color: "green-text-gradient",
+      },
+    ],
+    image: myfatoorah,
+  },
+  {
+    name: "Mr. Finconsulting Dashboard",
+    description:
+      "A dashaboard made for a German accounting company. The dashboard includes chats, user management, and admin control. For this project I worked with the backend developer to implement the figma design made by the UI/UX.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "shadcn",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-query",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: finconsulting,
+    // source_code_link: "https://github.com/Abdelmasieh01/khabeer",
+  },
   {
     name: "Khabeer Dashboard",
     description:
@@ -249,7 +294,6 @@ const projects = [
     ],
     image: stpeterlib,
     source_code_link: "https://github.com/Abdelmasieh01/library",
-    live_link: "https://stpeterlibrary.crabdance.com/",
   },
   {
     name: "St. Peter Library App",
