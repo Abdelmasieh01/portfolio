@@ -136,7 +136,7 @@ const experiences = [
     ],
   },
   {
-    title: "Backend Developer (Contract Based)",
+    title: "Backend Developer",
     company_name: "SmartServe AI",
     icon: avatar,
     iconBg: "#383E56",
