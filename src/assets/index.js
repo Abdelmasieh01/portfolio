@@ -25,9 +25,12 @@ import aws from "./tech/aws.png";
 import python from "./tech/python.png";
 import sql from "./tech/sql.png";
 import rest from "./tech/rest.png";
+import asp_net from "./tech/asp.net.png";
+import express from "./tech/express-js.png";
 
 import instaTech from "./company/instaTech.png";
 import avatar from "./company/avatar.png";
+import smartserve from "./company/smartserve.jpeg"
 import live from "./live.png";
 
 import khabeer from "./khabeer.png";
@@ -41,6 +44,7 @@ import myfatoorah from "./myfatoorah.png";
 
 import linkedin from "./linkedin.png";
 import email from "./email.png";
+
 
 export {
   logo,
@@ -67,7 +71,6 @@ export {
   khabeer,
   finconsulting,
   myfatoorah,
-  // nesr
   stpeterlib,
   stpeterapp,
   ecommapi,
@@ -81,5 +84,8 @@ export {
   avatar,
   live,
   email,
-  linkedin
+  linkedin,
+  smartserve,
+  asp_net,
+  express,
 };

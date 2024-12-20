@@ -34,6 +34,9 @@ import {
   email,
   finconsulting,
   myfatoorah,
+  smartserve,
+  asp_net,
+  express,
 } from "../assets";
 
 export const navLinks = [
@@ -80,28 +83,33 @@ const technologies = [
     icon: sql,
   },
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
+  {
+    name: "express.js",
+    icon: express,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "ASP.NET",
+    icon: asp_net,
+  },
+
   // {
-  //   name: "TypeScript",
-  //   icon: typescript,
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
   // },
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -124,7 +132,7 @@ const technologies = [
 const experiences = [
   {
     title: "FullStack Engineer",
-    company_name: "instaTech",
+    company_name: "instaTech Team (Freelance)",
     icon: instaTech,
     iconBg: "#E6DEDD",
     date: "SEP 2022 - Present",
@@ -139,9 +147,9 @@ const experiences = [
   {
     title: "Backend Developer",
     company_name: "SmartServe AI",
-    icon: avatar,
-    iconBg: "#383E56",
-    date: "MAR 2024 - MAY 2024",
+    icon: smartserve,
+    iconBg: "#FFF",
+    date: "JAN 2024 - AUG 2024",
     points: [
       "Developed API endpoints for AI Real-time Speech-To-Text transcriptions using Websockets.",
       "Connected the Asterisk server that receives calls to the APIs.",
@@ -245,7 +253,6 @@ const projects = [
       },
     ],
     image: finconsulting,
-    // source_code_link: "https://github.com/Abdelmasieh01/khabeer",
   },
   {
     name: "Khabeer Dashboard",
@@ -270,10 +277,6 @@ const projects = [
       },
     ],
     image: khabeer,
-    // source_code_link: "https://github.com/Abdelmasieh01/khabeer",
-    live_link: "https://khabeer-omega.vercel.app/",
-    figma_link:
-      "https://www.figma.com/proto/mvUpttmqNfVMD8cBcmFBjE/Khabeer-Web?page-id=313%3A2786&type=design&node-id=313-2989&viewport=1421%2C3298%2C0.35&t=ZCU6o3BucmdToFEs-1&scaling=contain&starting-point-node-id=313%3A2787&mode=design",
   },
   {
     name: "St. Peter Library",
