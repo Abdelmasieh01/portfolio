@@ -38,7 +38,8 @@ import {
   elmohandes,
   asp_net,
   express,
-  acies_co
+  acies_co,
+  _77s,
 } from "../assets";
 
 export const navLinks = [
@@ -201,6 +202,20 @@ const testimonials = [
 
 const projects = [
   {
+    name: "77s Design Frontend",
+    description:
+      "A site similar to UpWork but for graphic designers! I was handed a Figma design and it was my responsibility to make it into a react app and make it responsive as well. The backend was made by Django and I had to make minor enhancements and adjustment to adapt to the frontend UI.",
+    tags: [
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "django", color: "green-text-gradient" },
+      { name: "React-Query", color: "pink-text-gradient" },
+      { name: "Docker", color: "blue-text-gradient" },
+      { name: "Figma", color: "green-text-gradient" },
+      { name: "Responsive_Design", color: "pink-text-gradient" },
+    ],
+    image: _77s,
+  },
+  {
     name: "ACIES-Co",
     description:
       "ACIES-Co accounting company has a dashbaord in which they wanted to add multiple visualization charts and pages to enhance their dashboard UI.",
@@ -211,7 +226,7 @@ const projects = [
       { name: "react-query", color: "green-text-gradient" },
       { name: "axios", color: "blue-text-gradient" },
     ],
-    image: acies_co
+    image: acies_co,
   },
   {
     name: "Arabanah Payment Gaetway Integration",

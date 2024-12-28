@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import live from "./live.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -33,7 +34,7 @@ import avatar from "./company/avatar.png";
 import smartserve from "./company/smartserve.jpeg"
 import elmohandes from "./company/elmohandes.png";
 import acies_co from "./acies-co.png";
-import live from "./live.png";
+import _77s from "./77s.png";
 
 import khabeer from "./khabeer.png";
 import stpeterlib from "./stpeterlibrary.jpg";
@@ -91,5 +92,6 @@ export {
   asp_net,
   express,
   elmohandes,
-  acies_co
+  acies_co,
+  _77s,
 };
