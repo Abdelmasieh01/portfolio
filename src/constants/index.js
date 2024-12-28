@@ -35,8 +35,10 @@ import {
   finconsulting,
   myfatoorah,
   smartserve,
+  elmohandes,
   asp_net,
   express,
+  acies_co
 } from "../assets";
 
 export const navLinks = [
@@ -145,6 +147,18 @@ const experiences = [
     ],
   },
   {
+    title: "Web Programming Instructor",
+    company_name: "El-Mohandes Academy",
+    icon: elmohandes,
+    iconBg: "#fff",
+    date: "SEP 2024 - Present",
+    points: [
+      "Mentored and taught groups various languages and skills such as: Python, HTMl, CSS, Django.",
+      "Developed customized course materials, including assignments, and projects, tailored to meet the needs of diverse learners.",
+      "Mentored students, addressing individual challenges and fostering a collaborative learning environment.",
+    ],
+  },
+  {
     title: "Backend Developer",
     company_name: "SmartServe AI",
     icon: smartserve,
@@ -186,6 +200,19 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "ACIES-Co",
+    description:
+      "ACIES-Co accounting company has a dashbaord in which they wanted to add multiple visualization charts and pages to enhance their dashboard UI.",
+    tags: [
+      { name: "ReactJS", color: "green-text-gradient" },
+      { name: "chartJS", color: "blue-text-gradient" },
+      { name: "typescript", color: "pink-text-gradient" },
+      { name: "react-query", color: "green-text-gradient" },
+      { name: "axios", color: "blue-text-gradient" },
+    ],
+    image: acies_co
+  },
   {
     name: "Arabanah Payment Gaetway Integration",
     description:

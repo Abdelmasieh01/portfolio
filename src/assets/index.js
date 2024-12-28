@@ -31,6 +31,8 @@ import express from "./tech/express-js.png";
 import instaTech from "./company/instaTech.png";
 import avatar from "./company/avatar.png";
 import smartserve from "./company/smartserve.jpeg"
+import elmohandes from "./company/elmohandes.png";
+import acies_co from "./acies-co.png";
 import live from "./live.png";
 
 import khabeer from "./khabeer.png";
@@ -88,4 +90,6 @@ export {
   smartserve,
   asp_net,
   express,
+  elmohandes,
+  acies_co
 };
