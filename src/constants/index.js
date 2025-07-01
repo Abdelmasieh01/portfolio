@@ -39,6 +39,7 @@ import {
   asp_net,
   express,
   acies_co,
+  emtethal,
   _77s,
 } from "../assets";
 
@@ -101,15 +102,10 @@ const technologies = [
     name: "ASP.NET",
     icon: asp_net,
   },
-
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  // },
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
+  {
+    name: "Docker",
+    icon: docker,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -168,10 +164,25 @@ const experiences = [
     points: [
       "Developed API endpoints for AI Real-time Speech-To-Text transcriptions using Websockets.",
       "Connected the Asterisk server that receives calls to the APIs.",
-      "Deployed, maintained, and enhanced the API.",
+      "Built and maintained a lightweight backend system for the project.",
     ],
   },
-];
+  {
+    title: "Fullstack Engineer",
+    company_name: "Arabic Platform for Technology (Emtethal)",
+    icon: emtethal,
+    iconBg: "#FFF",
+    date: "DEC 2024 - Present",
+    points: [
+      "Contributed to backend development using Django, ensuring a well-structured and maintainable codebase.",
+      "Participated in code reviews to uphold code quality and consistency across the team.",
+      "Wrote unit tests for backend functionality to ensure reliability and catch regressions early.",
+      "Handled backend deployment and server configuration.",
+      "Built and maintained Frontend features using React, including dynamic components, form handling, API integration, and state management with hooks and context.",
+      "Used React Query for efficient data fetching and caching, and styled components with Tailwind CSS to create responsive, consistent user interfaces.",
+    ]
+  }
+].reverse();
 
 const testimonials = [
   {

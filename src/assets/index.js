@@ -35,6 +35,7 @@ import smartserve from "./company/smartserve.jpeg"
 import elmohandes from "./company/elmohandes.png";
 import acies_co from "./acies-co.png";
 import _77s from "./77s.png";
+import emtethal from "./emtethal.svg";
 
 import khabeer from "./khabeer.png";
 import stpeterlib from "./stpeterlibrary.jpg";
@@ -94,4 +95,5 @@ export {
   elmohandes,
   acies_co,
   _77s,
+  emtethal,
 };
