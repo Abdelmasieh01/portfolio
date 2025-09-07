@@ -1,33 +1,22 @@
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  // khabeer,
   stpeterlib,
   stpeterapp,
   ecommapi,
   twitter,
-  threejs,
   instaTech,
   django,
   aws,
-  rest,
   python,
   sql,
-  avatar,
   khabeer,
   github,
   linkedin,
@@ -36,7 +25,6 @@ import {
   myfatoorah,
   smartserve,
   elmohandes,
-  asp_net,
   express,
   acies_co,
   emtethal,
@@ -67,10 +55,6 @@ const services = [
     title: "Frontend Developer",
     icon: web,
   },
-  {
-    title: "Flutter Developer",
-    icon: mobile,
-  },
 ];
 
 const technologies = [
@@ -97,10 +81,6 @@ const technologies = [
   {
     name: "TypeScript",
     icon: typescript,
-  },
-  {
-    name: "ASP.NET",
-    icon: asp_net,
   },
   {
     name: "Docker",
@@ -172,7 +152,7 @@ const experiences = [
     company_name: "Arabic Platform for Technology (Emtethal)",
     icon: emtethal,
     iconBg: "#FFF",
-    date: "DEC 2024 - Present",
+    date: "FEB 2025 - Present",
     points: [
       "Contributed to backend development using Django, ensuring a well-structured and maintainable codebase.",
       "Participated in code reviews to uphold code quality and consistency across the team.",
@@ -183,33 +163,6 @@ const experiences = [
     ]
   }
 ].reverse();
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
@@ -439,7 +392,6 @@ export {
   services,
   technologies,
   experiences,
-  testimonials,
   projects,
   contacts,
 };
